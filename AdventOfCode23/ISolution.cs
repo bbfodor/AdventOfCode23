@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace AdventOfCode23
 {
-    public interface ISolution<TSolution1, TSolution2>
+    public interface ISolution
     {
 
-        public TSolution1 GetSolution1();
+        public object GetSolution1();
 
-        public TSolution2 GetSolution2();
+        public object GetSolution2();
     }
 }
